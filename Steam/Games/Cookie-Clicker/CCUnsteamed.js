@@ -7,16 +7,16 @@
     var activeAudioURL = ''; // To track the active audio URL
 
     // Preload the audio files
-    var clickAudio = new Audio('./music/02.%20Click.flac');
+    var clickAudio = new Audio('https://github.com/SkyAtSchool/SkyAtSchool.github.io/raw/main/Steam/Games/Cookie-Clicker/music/02.%20Click.flac');
     clickAudio.preload = 'auto';
 
-    var hoverAudio = new Audio('./music/01.%20Hover.flac');
+    var hoverAudio = new Audio('https://github.com/SkyAtSchool/SkyAtSchool.github.io/raw/main/Steam/Games/Cookie-Clicker/music/01.%20Hover.flac');
     hoverAudio.preload = 'auto';
 
-    var elderWrathAudio = new Audio('./music/03.%20Grandma%20Pocalypse.flac'); // Replace with the actual URL
+    var elderWrathAudio = new Audio('https://github.com/SkyAtSchool/SkyAtSchool.github.io/raw/main/Steam/Games/Cookie-Clicker/music/03.%20Grandma%20Pocalypse.flac'); // Replace with the actual URL
     elderWrathAudio.preload = 'auto';
 
-    var ascendAudio = new Audio('./music/04.%20Ascend.flac'); // Replace with the actual URL
+    var ascendAudio = new Audio('https://github.com/SkyAtSchool/SkyAtSchool.github.io/raw/main/Steam/Games/Cookie-Clicker/music/04.%20Ascend.flac'); // Replace with the actual URL
     ascendAudio.preload = 'auto';
 
     function fadeOut(audio) {
